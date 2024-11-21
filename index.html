@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Containers Demo</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #3C3D37;
+    }
+    .box {
+      background-color: #424242;
+    }
+    .body {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+    }
+    .btn-center {
+      margin-top: 10px;
+    }
+    .mb-4 {
+      color: #49858e;
+      text-align: center;
+    }
+    .descrip {
+      padding: 20px; 
+    }
+    .text{
+      color: #838383;
+    }
+  </style>
+</head>
+<body>
+<div class="container mt-5">
+ <h2 class="mb-4">Crypto Currency Research</h2>
+  
+  <div class="row mb-5">
+   <div class="col-md-4">
+     <div class="box">
+       <div class="descrip">
+         <img src="bitcoin.png" class="img-fluid" style="max-width: 300px;">
+         <button class="btn btn-link btn-center" style="text-align: center;">Bitcoin</button>
+       </div>
+     </div>
+    </div>
+    <div class="col-md-8">
+     <div class="box">
+       <div class="descrip">
+         <p class="text">Name: Bitcoin</p>
+         <p class="text">Bitcoin is a type of digital currency, also known as a cryptocurrency. It was created in 2009 by an unknown person or group of people using the name Satoshi Nakamoto. Unlike traditional currencies issued by governments, Bitcoin operates on a decentralized network using blockchain technology, which is a public ledger that records all Bitcoin transactions.</p>
+         <p class="text">PHP Value: 5,783,949.77</p>
+       </div>
+     </div>
+   </div>
+  </div>
+
+  <div class="row mb-5">
+   <div class="col-md-4">
+     <div class="box">
+       <div class="descrip">
+         <img src="ethereum.png" class="img-fluid" style="max-width: 300px;">
+          <button class="btn btn-link btn-center">Ethereum</button>
+       </div>
+     </div>
+    </div>
+    <div class="col-md-8">
+     <div class="box">
+       <div class="descrip">
+         <p class="text">Name: Ethereum</p>
+         <p class="text">Definition: Ethereum is a decentralized global software platform powered by blockchain technology. It is known for its native cryptocurrency, ether (ETH), and is used by developers for blockchain and decentralized finance application development1. Ethereum acts as the foundation for communities, applications, organizations, and digital assets that anyone can build and use</p>
+         <p class="text">PHP Value: 22.59</p>
+       </div>
+     </div>
+   </div>
+  </div>
+
+  <div class="row mb-5">
+    <div class="col-md-4">
+      <div class="box">
+        <div class="descrip">
+          <img src="tether.png" class="img-fluid" style="max-width: 300px;">
+          <button class="btn btn-link btn-center">Tether</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8">
+      <div class="box">
+        <div class="descrip">
+          <p class="text">Name: Tether</p>
+          <p class="text">Definition: Tether (USDT) is a type of cryptocurrency known as a stablecoin. Unlike other cryptocurrencies that can be highly volatile, Tether is designed to maintain a stable value by being pegged to the U.S. dollar. This means that for every Tether token in circulation, there should be an equivalent amount of U.S. dollars held in reserve</p>
+          <p class="text">PHP Value: 65.87</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.amazonaws.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
